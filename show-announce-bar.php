@@ -2,7 +2,7 @@
 /*
 Plugin Name: Show Announce Bar
 Plugin URI:
-Description: アナウンスバーのテキストを設定する(Show Announce Bar on the top of the websitepublic)
+Description: アナウンスバーのテキストを設定する(Show Announce Bar on the top of the website)
 Author: Risa Ueda
 Version: 1.0
 Author URI: https://risa-ueda.com/portfolio/
