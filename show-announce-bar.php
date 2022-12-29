@@ -97,12 +97,18 @@ $stext = new ShowText;
 function top_bar_text(){
   // プラグインから文字の読み込み
   $showtext = new ShowText();
+  $font_color = '#fff';
+  $bg_color = "#000";
+
   if($showtext->get_text()) {
     $banner = $showtext->get_text();
   } else {
     $banner = 'This is sample text.';
   }
-  echo '<div class="my-campaign-text" style="background:#000; color:#fff; text-align:center;">
+  echo '<div class="my-campaign-text"
+        style="background: ' . $bg_color. ';
+                color: '.$font_color.';
+                text-align:center;">
           <div class="container">'. esc_html($banner) .'</div>
        </div>';
 }
